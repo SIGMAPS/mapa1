@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mercadorias</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+	<link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+	<link rel="stylesheet" type="text/css" href="leaflet.css">
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+</head>
+<body>
+
+	<div class="menu-btn">
+		<i class="fas fa-bars"></i>
+	</div>
+	<div class="side-bar">
+		<div class="close-btn">
+			<i class="fas fa-times"></i>
+		</div>
+		<div class="menu">
+
+			<div class="item">
+				<a class="sub-btn"><i class="fas fa-folder-open"></i>Ano<i class="fas fa-angle-right dropdown"></i></a>
+				<div class="sub-menu">
+					<a href="#" class="sub-item">1450</a>
+					<a href="#" class="sub-item">1451</a>
+					<a href="#" class="sub-item">1452</a>
+				</div>
+			</div>
+
+			<div class="item">
+				<a class="sub-btn"><i class="fas fa-folder-open"></i>Mercador<i class="fas fa-angle-right dropdown"></i></a>
+				<div class="sub-menu">
+					<a href="#" class="sub-item">Lopo Antunes</a>
+				</div>
+			</div>
+
+			<div class="item">
+				<a class="sub-btn"><i class="fas fa-folder-open"></i>Mercadoria<i class="fas fa-angle-right dropdown"></i></a>
+				<div class="sub-menu">
+					<a href="#" class="sub-item">Couros</a>
+					<a href="#" class="sub-item">Seda</a>
+				</div>
+			</div>
+
+			<div class="item">
+				<a class="sub-btn"><i class="fas fa-folder-open"></i>Embarcação<i class="fas fa-angle-right dropdown"></i></a>
+				<div class="sub-menu">
+					<a href="#" class="sub-item">Nave</a>
+					<a href="#" class="sub-item">Caravela</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="main">
+		<h1>AREA DO MAPA</h1>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
